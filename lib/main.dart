@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'day1/day1_page.dart';
+import 'day2/day2_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -28,4 +29,5 @@ class MyApp extends StatelessWidget {
 Map<String, Widget Function(dynamic context)> routes = {
   '/': (context) => const HomePage(title: 'Advent of Code 2022'),
   '/day1': (context) => const Day1Page(),
+  '/day2': (context) => const Day2Page(),
 };
