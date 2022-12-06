@@ -22,9 +22,9 @@ class _HomePageState extends State<HomePage> {
           children: const [
             DayButton(title: 'Day 1', path: '/day1', enabled: true),
             DayButton(title: 'Day 2', path: '/day2', enabled: true),
-            DayButton(title: 'Day 3', path: '/day3', enabled: false),
-            DayButton(title: 'Day 4', path: '/day4', enabled: false),
-            DayButton(title: 'Day 5', path: '/day5', enabled: false),
+            DayButton(title: 'Day 3', path: '/day3', enabled: true),
+            DayButton(title: 'Day 4', path: '/day4', enabled: true),
+            DayButton(title: 'Day 5', path: '/day5', enabled: true),
             DayButton(title: 'Day 6', path: '/day6', enabled: false),
             DayButton(title: 'Day 7', path: '/day7', enabled: false),
             DayButton(title: 'Day 8', path: '/day8', enabled: false),

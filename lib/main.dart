@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'day1/day1_page.dart';
 import 'day2/day2_page.dart';
+import 'day3/day3_page.dart';
+import 'day4/day4_page.dart';
+import 'day5/day5_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -30,4 +33,7 @@ Map<String, Widget Function(dynamic context)> routes = {
   '/': (context) => const HomePage(title: 'Advent of Code 2022'),
   '/day1': (context) => const Day1Page(),
   '/day2': (context) => const Day2Page(),
+  '/day3': (context) => const Day3Page(),
+  '/day4': (context) => const Day4Page(),
+  '/day5': (context) => const Day5Page(),
 };
