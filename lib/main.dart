@@ -5,6 +5,8 @@ import 'day2/day2_page.dart';
 import 'day3/day3_page.dart';
 import 'day4/day4_page.dart';
 import 'day5/day5_page.dart';
+import 'day6/day6_page.dart';
+import 'day7/day7_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -36,4 +38,6 @@ Map<String, Widget Function(dynamic context)> routes = {
   '/day3': (context) => const Day3Page(),
   '/day4': (context) => const Day4Page(),
   '/day5': (context) => const Day5Page(),
+  '/day6': (context) => const Day6Page(),
+  '/day7': (context) => const Day7Page(),
 };
