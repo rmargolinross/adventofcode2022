@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'day1/day1_page.dart';
+import 'day10/day10_page.dart';
 import 'day2/day2_page.dart';
 import 'day3/day3_page.dart';
 import 'day4/day4_page.dart';
@@ -8,6 +9,7 @@ import 'day5/day5_page.dart';
 import 'day6/day6_page.dart';
 import 'day7/day7_page.dart';
 import 'day8/day8_page.dart';
+import 'day9/day9_page.dart';
 import 'home_page.dart';
 
 void main() {
@@ -42,4 +44,6 @@ Map<String, Widget Function(dynamic context)> routes = {
   '/day6': (context) => const Day6Page(),
   '/day7': (context) => const Day7Page(),
   '/day8': (context) => const Day8Page(),
+  '/day9': (context) => const Day9Page(),
+  '/day10': (context) => const Day10Page(),
 };
