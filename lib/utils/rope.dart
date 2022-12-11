@@ -85,17 +85,17 @@ class Rope {
           knots[i] = Tuple(follow.x - 1, follow.y);
         }
       } else {
-        if ((follow.x - lead.x).abs() > 1) {
-          if (lead.x > follow.x) {
-            knots[i] = Tuple(lead.x - 1, lead.y);
+        if (lead.x > follow.x) {
+          if (lead.y > follow.y) {
+            knots[i] = Tuple(follow.x + 1, follow.y + 1);
           } else {
-            knots[i] = Tuple(lead.x + 1, lead.y);
+            knots[i] = Tuple(follow.x + 1, follow.y - 1);
           }
         } else {
           if (lead.y > follow.y) {
-            knots[i] = Tuple(lead.x, lead.y - 1);
+            knots[i] = Tuple(follow.x - 1, follow.y + 1);
           } else {
-            knots[i] = Tuple(lead.x, lead.y + 1);
+            knots[i] = Tuple(follow.x - 1, follow.y - 1);
           }
         }
       }
