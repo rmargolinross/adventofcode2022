@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class PuzzleInputOutput extends StatefulWidget {
@@ -62,7 +64,7 @@ class _PuzzleInputOutputState extends State<PuzzleInputOutput> {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(calculation1Result),
+                child: Text(calculation1Result, maxLines: 100),
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
@@ -79,7 +81,16 @@ class _PuzzleInputOutputState extends State<PuzzleInputOutput> {
               ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text(calculation2Result),
+                child: Text(
+                  calculation2Result,
+                  maxLines: 10,
+                  style: const TextStyle(
+                    fontFamily: 'RobotoMono',
+                    fontFeatures: [
+                      FontFeature.tabularFigures()
+                    ]
+                  ),
+                ),
               ),
             ]),
         ),

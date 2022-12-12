@@ -1,4 +1,5 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
+import 'package:adventofcode2022/utils/clock_circuit.dart';
 import 'package:flutter/material.dart';
 
 
@@ -10,12 +11,16 @@ class Day10Page extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Day 10')),
       body: PuzzleInputOutput(
+        button1Label: 'Calculate Signal Strength',
         button1Calculation: (input) {
+          var cpu = ClockCircuit();
+          return cpu.getSignalStrengths(input, [20, 60, 100, 140, 180, 220]).toString();
         },
-        button1Label: 'Count Visited Rope Spots',
+        button2Label: 'Get CRT',
         button2Calculation: (input) {
+          var cpu = ClockCircuit();
+          return cpu.drawCRT(input);
         },
-        button2Label: 'Get Best View',
       ),
     );
   }
