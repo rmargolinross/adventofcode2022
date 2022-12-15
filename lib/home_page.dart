@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
             DayButton(title: 'Day 9', path: '/day9', enabled: true),
             DayButton(title: 'Day 10', path: '/day10', enabled: true),
             DayButton(title: 'Day 11', path: '/day11', enabled: true),
-            DayButton(title: 'Day 12', path: '/day12', enabled: false),
+            DayButton(title: 'Day 12', path: '/day12', enabled: true),
             DayButton(title: 'Day 13', path: '/day13', enabled: false),
             DayButton(title: 'Day 14', path: '/day14', enabled: false),
             DayButton(title: 'Day 15', path: '/day15', enabled: false),

@@ -1,5 +1,3 @@
-import 'dart:html';
-
 class Tuple<T> {
   Tuple(this.x, this.y);
 
