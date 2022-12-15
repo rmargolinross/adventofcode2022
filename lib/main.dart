@@ -4,6 +4,9 @@ import 'day1/day1_page.dart';
 import 'day10/day10_page.dart';
 import 'day11/day11_page.dart';
 import 'day12/day12_page.dart';
+import 'day13/day13_page.dart';
+import 'day14/day14_page.dart';
+import 'day15/day15_page.dart';
 import 'day2/day2_page.dart';
 import 'day3/day3_page.dart';
 import 'day4/day4_page.dart';
@@ -50,4 +53,7 @@ Map<String, Widget Function(dynamic context)> routes = {
   '/day10': (context) => const Day10Page(),
   '/day11': (context) => const Day11Page(),
   '/day12': (context) => const Day12Page(),
+  '/day13': (context) => const Day13Page(),
+  '/day14': (context) => const Day14Page(),
+  '/day15': (context) => const Day15Page(),
 };
