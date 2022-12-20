@@ -1,7 +1,7 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/rope.dart';
+import 'rope.dart';
 
 
 class Day9Page extends StatelessWidget {

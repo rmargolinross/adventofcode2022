@@ -1,7 +1,7 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/height_map.dart';
+import 'height_map.dart';
 
 class Day12Page extends StatelessWidget {
   const Day12Page({super.key});

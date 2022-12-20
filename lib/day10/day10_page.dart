@@ -1,5 +1,5 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/clock_circuit.dart';
+import 'package:adventofcode2022/day10/clock_circuit.dart';
 import 'package:flutter/material.dart';
 
 

@@ -1,5 +1,5 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/rockpaperscissors.dart';
+import 'package:adventofcode2022/day2/rockpaperscissors.dart';
 import 'package:flutter/material.dart';
 
 class Day2Page extends StatelessWidget {

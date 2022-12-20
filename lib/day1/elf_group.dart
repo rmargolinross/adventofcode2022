@@ -1,4 +1,4 @@
-import 'package:adventofcode2022/utils/rucksack.dart';
+import 'package:adventofcode2022/day3/rucksack.dart';
 
 class ElfGroup {
   ElfGroup(this.elf1, this.elf2, this.elf3);

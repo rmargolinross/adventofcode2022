@@ -1,7 +1,7 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/crane.dart';
+import 'crane.dart';
 
 class Day5Page extends StatelessWidget {
   const Day5Page({super.key});

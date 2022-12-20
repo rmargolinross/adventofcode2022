@@ -1,8 +1,8 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/calorie_counter.dart';
+import 'package:adventofcode2022/day1/calorie_counter.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/elf.dart';
+import 'elf.dart';
 
 class Day1Page extends StatelessWidget {
   const Day1Page({super.key});

@@ -1,7 +1,7 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/sand.dart';
+import 'sand.dart';
 
 class Day14Page extends StatelessWidget {
   const Day14Page({super.key});

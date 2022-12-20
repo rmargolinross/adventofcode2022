@@ -1,6 +1,6 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/elf_group.dart';
-import 'package:adventofcode2022/utils/rucksack.dart';
+import 'package:adventofcode2022/day1/elf_group.dart';
+import 'package:adventofcode2022/day3/rucksack.dart';
 import 'package:flutter/material.dart';
 
 class Day3Page extends StatelessWidget {

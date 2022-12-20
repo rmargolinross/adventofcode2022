@@ -1,5 +1,5 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/distress_signal.dart';
+import 'package:adventofcode2022/day13/distress_signal.dart';
 import 'package:flutter/material.dart';
 
 class Day13Page extends StatelessWidget {

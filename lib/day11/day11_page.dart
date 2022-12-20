@@ -1,7 +1,7 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/monkey_business.dart';
+import 'monkey_business.dart';
 
 
 class Day11Page extends StatelessWidget {

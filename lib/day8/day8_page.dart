@@ -1,5 +1,5 @@
 import 'package:adventofcode2022/common/widgets/puzzle_input_output.dart';
-import 'package:adventofcode2022/utils/planted_forest.dart';
+import 'package:adventofcode2022/day8/planted_forest.dart';
 import 'package:flutter/material.dart';
 
 
